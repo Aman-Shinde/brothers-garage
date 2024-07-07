@@ -61,15 +61,16 @@
 </style>
 
 <style>
-  .slick-dots li.slick-active button {
+  .slick-dots li.slick-active button::before {
     background-color: red !important;
   }
 
-  .slick-dots li button {
+  .slick-dots li button::before {
     background-color: gray !important;
     border-radius: 50% !important;
     width: 10px !important;
     height: 10px !important;
+    content: "" !important;
   }
 
   .slick-track {
