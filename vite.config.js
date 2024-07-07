@@ -7,7 +7,10 @@ export default defineConfig({
   base: "/brothers-garage/",
   build: {
     rollupOptions: {
-      external: ['@mui/material']
+      external: [
+        '@mui/material',
+        '@mui/icons-material'
+      ]
     }
   }
 })
