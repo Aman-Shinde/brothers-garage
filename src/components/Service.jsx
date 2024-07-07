@@ -1,6 +1,11 @@
 import React from 'react';
 import { Box, Grid, Typography, Card, CardContent } from '@mui/material';
-import { CarRepairIcon, LocalCarWashIcon, FormatPaintIcon, EngineeringIcon, ElectricMeterIcon, QueryStatsIcon} from '@mui/icons-material';
+import CarRepairIcon from '@mui/icons-material/CarRepair';
+import LocalCarWashIcon from '@mui/icons-material/LocalCarWash';
+import FormatPaintIcon from '@mui/icons-material/FormatPaint';
+import EngineeringIcon from '@mui/icons-material/Engineering';
+import ElectricMeterIcon from '@mui/icons-material/ElectricMeter';
+import QueryStatsIcon from '@mui/icons-material/QueryStats';
 
 const cardData = [
     { icon: <CarRepairIcon sx={{fontSize:"70px"}} />, title: 'Auto Repair' },

@@ -1,6 +1,11 @@
 import React from 'react';
 import { Box, Typography, IconButton } from '@mui/material';
-import { FacebookIcon,TwitterIcon,LinkedInIcon,InstagramIcon } from '@mui/icons-material';
+import CallIcon from '@mui/icons-material/Call';
+import RoomIcon from '@mui/icons-material/Room';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 function Footer() {
     return (

@@ -1,6 +1,8 @@
 import React from 'react';
 import { Box, Stack, Typography } from '@mui/material'
-import { CallIcon, RoomIcon} from '@mui/icons-material';
+import CallIcon from '@mui/icons-material/Call';
+
+import RoomIcon from '@mui/icons-material/Room';
 
 function Header() {
     return (
