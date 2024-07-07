@@ -6,7 +6,13 @@ import RoomIcon from '@mui/icons-material/Room';
 
 function Header() {
     return (
-        <Box>
+        <Box sx={{
+            position: 'sticky',
+                top: 0,
+                zIndex: 1000,
+                backgroundColor: "#ffffff",
+                boxShadow: '0 2px 5px rgba(0, 0, 0, 0.2)'
+        }}>
 
             <Stack sx={{
                 flexDirection: { lg: "row", md: "row", sm: "row", xs: "row" },
@@ -75,7 +81,7 @@ function Header() {
 
                 <Box sx={{ height: "100%" }}>
 
-                    <img src="./logo.jpg" alt="brand_logo" style={{ height: "100%", mixBlendMode: "color-burn" }} />
+                    <img src="./logo.jpg" alt="brand_logo" style={{ height: "100%" }} />
 
                 </Box>
 
